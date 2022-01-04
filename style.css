@@ -1,0 +1,139 @@
+body,html{
+    min-height: 100%;
+}
+#logo{
+    float: left;
+}
+#logo-name{
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin: 12px 12px 12px 18px;
+    padding: 8px;
+    box-shadow: 5px 5px 40px 20px black;
+    border-radius: 5px;
+ } 
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(images/dodybackground.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.header{
+    background-image: linear-gradient(to right, red, orange);
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header ul li{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+header ul li a{
+    color: blue;
+    text-decoration: none;
+}
+header ul li:hover{
+    background-color: seashell;
+    color: black;
+}
+.text-white{
+    color: white;
+}
+.flexdiv{
+    display: flex;
+}
+.section1{
+    width: 50%;
+    padding: 5%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.section1 img{
+    width: 100%;
+}
+.color-orange{
+    color: orange;
+}
+.linkbutton{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.text-larg{
+    font-size: 100px;
+    margin-top: 0px;}
+.bgimg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.wordstyle{
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+}
+.font50{
+    font-size: 50px;
+}
+section div h4{
+    font-size: 25px;
+}
+#dreamimg-1{
+    border: 5px solid rosybrown;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+#dreamimg-2{
+    border: 5px solid rosybrown;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+#dreamtext{
+    color: white;
+    padding: 20px;
+    background-color: black;
+    text-shadow: 4px 4px 10px rgb(255, 7, 7);
+}
+.dreamback{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#dreamh4{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 50pxpx;
+}
+#exp{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-top: 0%;
+}
+.newexp{
+    width: 40%;
+    padding: 0px 10px 0px 20px;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.boxshadow{
+    box-shadow: 5px 5px 40px 20px red;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
